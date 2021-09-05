@@ -36,7 +36,7 @@ public class DieWithObstacles : MonoBehaviour
             //AlphaLevel += 255;
             //color.a = 1f;
             //Rend.color = new Color(1, 1, 1, 1);
-            Rend.enabled = true;
+            Rend.enabled = false;
         }
         else if (lumosscript.LightOn == false)
         {
@@ -47,7 +47,7 @@ public class DieWithObstacles : MonoBehaviour
             //color.a = 0f;
             //AlphaLevel -= 255;
             //Rend.color = new Color(1, 1, 1, 0);
-            Rend.enabled = false;
+            Rend.enabled = true;
         }
         
         //GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, AlphaLevel);
