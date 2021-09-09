@@ -18,9 +18,9 @@ public class patrolScript : MonoBehaviour
         randomPos = Random.Range(0,mSpots.Length);
     }
 
-    private void Update()
+   /* private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, mSpots[randomPos].position, speed * Time.deltaTime); // moves object from current position to random mSpot. 
+       // transform.position = Vector2.MoveTowards(transform.position, mSpots[randomPos].position, speed * Time.deltaTime); // moves object from current position to random mSpot. 
 
         if (Vector2.Distance(transform.position,mSpots[randomPos].position) < 0.2f ) 
         {
@@ -34,7 +34,7 @@ public class patrolScript : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
-    }
+    } */
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

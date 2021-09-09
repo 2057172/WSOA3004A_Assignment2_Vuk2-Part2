@@ -6,6 +6,8 @@ TagManager:
   tags:
   - respawnProjectile
   - Obstacle
+  - DeathLine
+  - CameraStopper
   layers:
   - Default
   - TransparentFX
