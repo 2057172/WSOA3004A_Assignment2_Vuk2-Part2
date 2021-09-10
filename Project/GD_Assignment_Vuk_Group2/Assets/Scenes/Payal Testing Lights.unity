@@ -13640,7 +13640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMoving: 0
   rb: {fileID: 1501550298}
-  movementSpeed: 300
+  movementSpeed: 200
 --- !u!61 &1501550300
 BoxCollider2D:
   m_ObjectHideFlags: 0
