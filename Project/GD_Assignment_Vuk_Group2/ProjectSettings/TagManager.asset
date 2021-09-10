@@ -8,9 +8,6 @@ TagManager:
   - Obstacle
   - DeathLine
   - CameraStopper
-  - Left
-  - Right
-  - MainLight
   layers:
   - Default
   - TransparentFX
